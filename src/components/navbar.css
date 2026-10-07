@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+nav img {
+  width: 10%;
+  border-radius: 100%;
+}
+nav div {
+  display: flex;
+}
+
+nav h3 {
+  margin-left: 15px;
+  color: white;
+}
+
+nav p {
+  font-weight: bold;
+  margin-left: 50px;
+  color: white;
+}

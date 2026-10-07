@@ -1,0 +1,30 @@
+.create-repository {
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 0 24px;
+  text-align: left;
+}
+
+.create-repository form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.create-repository input:not([type="checkbox"]),
+.create-repository textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+
+.create-repository textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.create-repository .repository-visibility {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
